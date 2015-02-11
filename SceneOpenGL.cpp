@@ -254,7 +254,7 @@ void SceneOpenGL::bouclePrincipale()
                 cube.setPosition(vec3(0.0, y_plus, z_plus));
             }
         }
-
+//testeeeee
         if(m_input.getTouche(SDL_SCANCODE_Y))
         {
             cube.setAngle(cube.getAngle() + vec3(0.4, 0, 0));
